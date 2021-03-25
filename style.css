@@ -308,6 +308,5 @@ this is the end of code taken from W3 schools (with edited and added styles of m
 }
 
 .resource{
-  height:175px;
-  object-fit: cover;
+  height:100%;
 }
