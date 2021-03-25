@@ -56,7 +56,7 @@ the following code is taken from W3 schools library: */
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #ddbea9;
+  color: #3f4238;
   display: block;
   transition: 0.3s;
 }
@@ -74,7 +74,9 @@ the following code is taken from W3 schools library: */
 }
 
 
-img {vertical-align: middle;}
+img {vertical-align: middle;
+height:300px;
+object-fit:cover;}
 
 /* Slideshow container */
 .slideshow-container {
@@ -185,7 +187,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #b98b73;
+  background-color: #3f4238;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -194,7 +196,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #d4c7b0;
+  background-color: #b98b73;
 }
 
 .container {
@@ -207,7 +209,7 @@ this is the end of code taken from W3 schools (with edited and added styles of m
 
 .intro{
   margin: 5vw;
-  border: solid #b98b73;
+  border: solid #3f4238;
   padding: 30px;
   font-size: 2.8vw;
   background-color: #cb997e;
@@ -219,8 +221,8 @@ this is the end of code taken from W3 schools (with edited and added styles of m
 #motto{
   text-align:center;
   margin:0px;
-  color: #ffe8d6;
-  font-size: 15px;
+  color: #3f4238;
+  font-size: 18px;
   font-style:italic;
 }
 
@@ -284,8 +286,9 @@ this is the end of code taken from W3 schools (with edited and added styles of m
 }
 
 .description{
-  background-color: #b98b73;
+  background-color: #3f4238;
   color: #ffe8d6;
+  font-size: 18px !important;
 }
 
 #def{
@@ -297,4 +300,9 @@ this is the end of code taken from W3 schools (with edited and added styles of m
 
 #word{
   font-size: 3vw;
+}
+
+.bolded{
+  font-weight:900;
+  color: #b98b73;
 }
