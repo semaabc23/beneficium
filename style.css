@@ -306,3 +306,8 @@ this is the end of code taken from W3 schools (with edited and added styles of m
   font-weight:900;
   color: #b98b73;
 }
+
+.resource{
+  height:175px;
+  object-fit: cover;
+}
