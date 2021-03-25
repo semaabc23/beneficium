@@ -278,11 +278,13 @@ this is the end of code taken from W3 schools (with edited and added styles of m
 
 #first{
   color:black;
+  background-color: white;
 }
 
 
 #third{
   color:black;
+  background-color: white;
 }
 
 .description{
@@ -309,4 +311,8 @@ this is the end of code taken from W3 schools (with edited and added styles of m
 
 .resource{
   height:100%;
+}
+
+.caption{
+  background-color: black;
 }
