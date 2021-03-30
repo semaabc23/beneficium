@@ -291,6 +291,9 @@ this is the end of code taken from W3 schools (with edited and added styles of m
   background-color: #3f4238;
   color: #ffe8d6;
   font-size: 18px !important;
+  padding-left: 100px;
+  padding-right: 100px;
+  line-height: 1.8;
 }
 
 #def{
@@ -315,4 +318,10 @@ this is the end of code taken from W3 schools (with edited and added styles of m
 
 .caption{
   background-color: black;
+}
+
+.item{
+  padding: 20px !important;
+  line-height: 1.6;
+
 }
